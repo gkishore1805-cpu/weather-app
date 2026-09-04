@@ -288,6 +288,10 @@ body {
 /* State panels: loading / error / empty                                  */
 /* ---------------------------------------------------------------------- */
 
+.state-panel[hidden] {
+  display: none;
+}
+
 .state-panel {
   margin: 14vh auto;
   text-align: center;
@@ -319,6 +323,10 @@ body {
 /* ---------------------------------------------------------------------- */
 /* Dashboard grid                                                         */
 /* ---------------------------------------------------------------------- */
+
+.dashboard[hidden] {
+  display: none;
+}
 
 .dashboard {
   display: grid;
