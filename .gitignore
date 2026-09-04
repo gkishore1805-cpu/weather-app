@@ -1,0 +1,11 @@
+# Real API key — never commit this
+config.js
+
+# Env files, in case a future version adds a backend
+.env
+.env.local
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+node_modules/
